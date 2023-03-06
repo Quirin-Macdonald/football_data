@@ -15,3 +15,25 @@
   6. Name the Key under 'Title' and paste the copied content into 'Key'
   7. Click on 'Add SSH key'
 
+## Scraping Data from homepages
+
+ In order to scrape from homepages like 'tm.de' packages like 'BeautifulSoup' and 'requests' are being used.
+ To make these libraries available localy, the user has to install them first using pip.
+
+  ## On Windows:
+
+  Open Commandline and use 'python -m pip install bs4'. Do the same again but use 'python -m pip install requests' this time around.
+
+  ## On MacOS:
+
+  Open Terminal and execute 'sudo easy_install pip'
+  Do 'sudo pip install --upgrade pip' next.
+
+  Install 'requests':
+
+  'pip install requests'
+
+  Install BeautifulSoup:
+
+  'pip install bs4'
+ 
